@@ -3,6 +3,7 @@ body{
     font-family: 'Playfair Display', serif;
     color: #07020d;
     background-color: #f9f7f1;
+    text-align: center;
 }
 
 .card{
@@ -61,4 +62,9 @@ body{
     -webkit-filter: none; 
     filter: none;
     transition: 0.3s;
+}
+.social-icon{
+    color: #07020d;
+    font-size:38px;
+    padding: 5px;
 }
