@@ -30,8 +30,6 @@
 }
 
 
-@import url(/css/generic.css);
-
 html{
     scroll-behavior: smooth;
     scroll-padding: 10rem;
