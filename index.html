@@ -1,28 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Ajay Yamagani</title>
+    <title>fuckFace</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Zeyada&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <div>
-        <span class="headline hl4">
-            <div class="card border-border">
-                <img src="https://media-exp1.licdn.com/dms/image/D5635AQG5prQhOzLx3w/profile-framedphoto-shrink_400_400/0/1634492103012?e=1663448400&v=beta&t=NNUkIb1TbLwdbb2QcCnY90wFILQ0J2XcfM8-aeBiN8c" alt="avtar" class="avtar border-border">
-                <div class="border-border center">
-                    <h3>Ajay Goud Yamagani</h3>
-                    <p>Aspiring Frontend Developer</p>
-                    <h4>Denton, TX</h4>
+    <header>
+        <div class="logo">
+            <a href="index.html"><span>aj</span>ay</a>
+        </div>
+        <nav>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro" id="home">
+            <p class="intro__sub1">Hello, I am</p>
+            <h1 class="intro__title">Ajay </br>Yamagani</h1>
+            <p class="intro__sub2">-Aspiring Frontend Developer</p>
+        </section>
+    
+    
+        <section class="about" id="about">
+            <h2 class="section__title">About Me</h2>
+            <div class="about__body">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit fugit, quas totam unde veniam illo iusto maxime id saepe error? Labore, aspernatur quis? Animi sequi recusandae quasi quibusdam consectetur impedit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum nihil facilis sequi expedita vel, illo beatae ratione aspernatur, suscipit velit molestias incidunt harum unde ipsa quod molestiae veritatis nulla dicta.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ab vero tempora culpa eaque. Laboriosam, rerum officia vitae earum repellendus placeat voluptate ipsam tempore. Molestiae autem temporibus quam sapiente incidunt.</p>
+            </div>
+        </section>
+    
+    
+        <section class="work" id="work">
+            <h2 class="section__title">My Work</h2>
+            <p class="section__sub">Here are some projects I worked on</p>
+            <div class="projects">
+                <div class="project">
+                    <div class="card">
+                        <a href="#"><img src="/images/card__img.png" alt="Project Screenshot" class="card__img"></a>
+                    </div>
+                    <h3 class="project__title">StopWatch</h3>
+                </div>
+                <div class="project">
+                    <div class="card">
+                        <a href="#"><img src="/images/card__img.png" alt="Project Screenshot" class="card__img"></a>
+                    </div>
+                    <h3 class="project__title">StopWatch2</h3>
+                </div>
+                <div class="project">
+                    <div class="card">
+                        <a href="#"><img src="/images/card__img.png" alt="Project Screenshot" class="card__img"></a>
+                    </div>
+                    <h3 class="project__title">StopWatch3</h3>
                 </div>
             </div>
-            <a href="https://www.linkedin.com/in/ajay-goud-yamagani-73292321b" class="social-icon"><i class="fa fa-linkedin-square"></i></a>
-            <a href="https://github.com/ajgouday" class="social-icon"><i class="fa fa-github"></i></a>
-        </span>
-    </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="contact">
+            <h2 class="section__title">Contact</h2>
+            <p class="section__sub">Here's how you can reach me</p>
+            <p class="label">Email:</p><a href="mailto:ajayyamagani@gmail.com">ajayyamagani@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a href="#" class="social-list__link"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="social-list__item"><a href="#" class="social-list__link"><i class="fa-brands fa-square-github"></i></a></li>
+                <li class="social-list__item"><a href="#" class="social-list__link"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </section>
+    </footer>
+
+
+    <script src="app.js"></script>
 </body>
 </html>
