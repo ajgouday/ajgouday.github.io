@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 :root{
-    --color-light: #e0dddd;
-    --color-dark: #141414;
-    --color-accent: #a436df;
+    --color-light: #b5b2b2;
+    --color-dark: #323131;
+    --color-accent: #a944df;
     --color-extra: #fdba31;
 
     --fw-reg: 300;
@@ -29,17 +29,22 @@ body.dark-mode {
     right: 0;
   }
   
+  body.dark-mode header{
+    background-color: var(--color-dark);
+  }
   /* Adjust the styles for dark mode on certain elements */
   body.dark-mode .logo a {
     color: var(--color-extra); /* Adjust logo text color */
   }
-  
+  body.dark-mode .nav__link{
+    color: var(--color-light);
+}
   body.dark-mode .nav__link:hover {
     border-color: var(--color-light); /* Adjust hover border color */
   }
   
   body.dark-mode .section__title {
-    color: var(--color-accent); /* Adjust section title color */
+    color: var(--color-light); /* Adjust section title color */
   }
   
   /* Add styles for dark mode on other elements as needed */
@@ -148,9 +153,6 @@ header{
     border: none;
 }
 
-main{
-    /* padding: 0 1rem; */
-}
 .intro{
     height: 100vh;
     width: 100%;
@@ -221,7 +223,6 @@ footer{
         font-size: 2rem;
     }
 }
-
 
 @media(min-width: 950px) {
     header{
